@@ -7,7 +7,7 @@ The NetBox UI will display tabs for status, LLDP neighbors, and configuration un
 * Device status is "Active"
 * A primary IP has been assigned to the device
 * A platform with a NAPALM driver has been assigned
-* The authenticated user has the `dcim.napalm_read_device` permission
+* The authenticated user has the `napalm_read` permission in their permissions, entered in the "Additional actions" box.
 
 !!! note
     To enable this integration, the NAPALM library must be installed. See [installation steps](../../installation/3-netbox/#napalm) for more information.
